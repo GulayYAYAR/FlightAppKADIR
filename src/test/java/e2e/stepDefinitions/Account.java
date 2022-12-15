@@ -1,2 +1,7 @@
-package e2e.stepDefinitions;public class Account {
+package e2e.stepDefinitions;
+
+import e2e.pages.AccountPage;
+
+public class Account {
+
 }

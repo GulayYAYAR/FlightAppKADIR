@@ -1,2 +1,4 @@
-package e2e.utils;public class APIConstants {
+package e2e.utils;
+
+public class APIConstants {
 }
