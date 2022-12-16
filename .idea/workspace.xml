@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6ff36d9-e716-4a12-bf68-c066333b2b10" name="Changes" comment="First Commit1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/runner/APIRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/runner/FailedRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/runner/RunnerClass.java" afterDir="false" />
+    <list default="true" id="d6ff36d9-e716-4a12-bf68-c066333b2b10" name="Changes" comment="Second Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e2e/pages/AccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/pages/AccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e2e/stepDefinitions/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/stepDefinitions/Account_SignUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e2e/stepDefinitions/PageInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/stepDefinitions/PageInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e2e/utils/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/utils/CommonMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e2e/utils/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/utils/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e2e/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/utils/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e2e/utils/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/utils/DBUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Account.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Account.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e2e/runner/RunnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/runner/RunnerClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +50,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Account">
+  <component name="RunManager" selected="JUnit.RunnerClass">
     <configuration name="Feature: Account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Account.feature" />
@@ -119,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: Account" />
         <item itemvalue="JUnit.RunnerClass" />
+        <item itemvalue="Cucumber Java.Feature: Account" />
         <item itemvalue="Cucumber Java.Scenario: SignUp" />
       </list>
     </recent_temporary>
@@ -134,7 +122,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670981559327</updated>
       <workItem from="1670981560750" duration="5379000" />
-      <workItem from="1671130861648" duration="11441000" />
+      <workItem from="1671130861648" duration="11743000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit1">
       <created>1671138578451</created>
@@ -143,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671138578451</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second Commit">
+      <created>1671159664073</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671159664073</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +157,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit1" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit1" />
+    <MESSAGE value="Second Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
   </component>
 </project>
