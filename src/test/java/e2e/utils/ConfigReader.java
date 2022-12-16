@@ -11,13 +11,16 @@ public class ConfigReader {
 
 
 
-    public static Properties readProperties(String filePath) throws IOException {
+    public static Properties readProperties(String filePath) {
 
         try {
             FileInputStream fileInputStream =new FileInputStream(filePath);
             properties = new Properties();
             properties.load(fileInputStream);
-        } catch (Exception e) {
+            fileInputStream.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
             e.printStackTrace();
         }
 
