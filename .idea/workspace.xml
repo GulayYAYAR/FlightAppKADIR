@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6ff36d9-e716-4a12-bf68-c066333b2b10" name="Changes" comment="Second Commit">
+    <list default="true" id="d6ff36d9-e716-4a12-bf68-c066333b2b10" name="Changes" comment="third Commit">
+      <change afterPath="$PROJECT_DIR$/screenshots/failed/Login with invalid credentials 2022-12-16-19-48-42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/passed/Login with invalid credentials 2022-12-16-19-47-27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/passed/Login with invalid credentials 2022-12-16-19-49-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/passed/Login with invalid credentials 2022-12-16-19-54-44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/passed/Login with invalid credentials 2022-12-16-19-58-44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/stepDefinitions/Account_Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e2e/pages/AccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/pages/AccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e2e/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/e2e/runner/RunnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/runner/RunnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Account.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Account.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -59,6 +70,26 @@
       <module name="FlightAppTestRenasTech" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: Account" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Login with invalid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Account.feature" />
+      <option name="GLUE" value="e2e.stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="FlightAppTestRenasTech" />
+      <option name="NAME_FILTER" value="^Login with invalid credentials$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login with invalid credentials$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login with invalid credentials" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +139,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunnerClass" />
-        <item itemvalue="Cucumber Java.Feature: Account" />
+        <item itemvalue="Cucumber Java.Scenario: Login with invalid credentials" />
         <item itemvalue="Cucumber Java.Scenario: SignUp" />
+        <item itemvalue="Cucumber Java.Feature: Account" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670981559327</updated>
       <workItem from="1670981560750" duration="5379000" />
-      <workItem from="1671130861648" duration="11743000" />
+      <workItem from="1671130861648" duration="17007000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit1">
       <created>1671138578451</created>
@@ -138,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671159664073</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="third Commit">
+      <created>1671160031385</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671160031385</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,8 +195,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First Commit1" />
     <MESSAGE value="Second Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+    <MESSAGE value="third Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="third Commit" />
   </component>
 </project>

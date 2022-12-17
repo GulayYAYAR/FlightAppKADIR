@@ -12,6 +12,8 @@ public class HomePage extends CommonMethods {
     }
     @FindBy(xpath = "//h1[.='Search Flight']")
     private WebElement searchFlightText;
+    @FindBy(id = "dropdownMenuLink")
+    private WebElement accountName;
 
 
 
@@ -26,5 +28,8 @@ public class HomePage extends CommonMethods {
     }
     public String getFlightText(){
         return searchFlightText.getText();
+    }
+    public String setAccountName(){
+        return accountName.getText();
     }
 }

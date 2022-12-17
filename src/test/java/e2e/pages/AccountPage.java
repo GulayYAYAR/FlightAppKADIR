@@ -46,6 +46,13 @@ public class AccountPage extends CommonMethods {
     private WebElement alertMessage;
     @FindBy(xpath = "//div[contains(text(),'Minimum eight characters, at least one uppercase letter, one lowercase letter, one number')]")
     private WebElement wrongPassword;
+    @FindBy(partialLinkText = "Login")
+    private WebElement loginButtonOnHeader;
+    @FindBy(css = ".btn.btn-primary.mt-2")
+    private WebElement loginButtonOnBottom;
+    @FindBy(xpath = "//div[contains(text(),'Please Enter Phone Number In Format')]")
+    private WebElement phoneAlertMessage;
+
 
     public void setSignUpButton(){
         click(signUpButton);
@@ -66,7 +73,7 @@ public class AccountPage extends CommonMethods {
         userEmail.sendKeys(email);
     }
     public void setPhoneNumber(){
-        phoneNumber = faker.phoneNumber().cellPhone();
+        phoneNumber = faker.phoneNumber().cellPhone().replace("-","");
         userPhoneNumber.sendKeys(phoneNumber);
     }
     public void setPassword(){
@@ -81,6 +88,7 @@ public class AccountPage extends CommonMethods {
             if (Objects.equals(element.getText(),"Female")){
                 element.click();
                 System.out.println("radio button for Female is selected");
+                break;
             }else {
                 System.out.println("Not Selected");
             }
@@ -97,10 +105,37 @@ public class AccountPage extends CommonMethods {
             userPasswordRepeat.clear();
             userPasswordRepeat.sendKeys(password);
             click(signUp);
+            if (phoneAlertMessage.isDisplayed()){
+                userPhoneNumber.clear();
+                phoneNumber = faker.phoneNumber().cellPhone().replace("-","");
+                userPhoneNumber.sendKeys(phoneNumber);
+                click(signUp);
+            }
+            else {
+                System.out.println("All good");
+            }
             return alertMessage.getText();
         }else {
             return alertMessage.getText();
         }
+    }
+    public void setClickLoginOnHeader(){
+        click(loginButtonOnHeader);
+
+    }
+    public void setValidCredentials(){
+        userEmail.sendKeys(email);
+        userPassword.sendKeys(password);
+    }
+    public void clickLoginOnBottom(){
+        click(loginButtonOnBottom);
+    }
+    public void verifyAccountName(){
+        Assert.assertEquals(userName,homePage.setAccountName());
+        System.out.println(userName);
+        System.out.println(userLastName);
+        System.out.println(email);
+        System.out.println(phoneNumber);
     }
 
 

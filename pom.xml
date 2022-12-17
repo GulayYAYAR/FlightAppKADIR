@@ -113,7 +113,7 @@
                 <version>3.0.0-M7</version>
                 <configuration>
                     <includes>
-                        <include>Kadir/runner/Runner.java</include>
+                        <include>e2e/runner/RunnerClass.java</include>
                     </includes>
                 </configuration>
             </plugin>
@@ -123,7 +123,7 @@
                 <version>2.4.2</version>
                 <configuration>
                     <includes>
-                        <include>Kadir/runner/Runner.java</include>
+                        <include>e2e/runner/RunnerClass.java</include>
                     </includes>
                 </configuration>
             </plugin>
