@@ -1,18 +1,20 @@
 package e2e.stepDefinitions;
 
 import e2e.utils.CommonMethods;
+import e2e.utils.DBUtils;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 public class Hooks extends CommonMethods {
 
 
 
     @Before
-    public void initialize() throws IOException {
+    public void initialize() throws IOException, SQLException {
         openAndLaunchApplication();
     }
 

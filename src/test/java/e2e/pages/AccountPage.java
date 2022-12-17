@@ -105,7 +105,7 @@ public class AccountPage extends CommonMethods {
             userPasswordRepeat.clear();
             userPasswordRepeat.sendKeys(password);
             click(signUp);
-            if (phoneAlertMessage.isDisplayed()){
+           if (phoneAlertMessage.isDisplayed()){
                 userPhoneNumber.clear();
                 phoneNumber = faker.phoneNumber().cellPhone().replace("-","");
                 userPhoneNumber.sendKeys(phoneNumber);
@@ -136,6 +136,18 @@ public class AccountPage extends CommonMethods {
         System.out.println(userLastName);
         System.out.println(email);
         System.out.println(phoneNumber);
+    }
+    public String getUserEmail(){
+        return email;
+    }
+    public String getUserPhoneNumber(){
+        return phoneNumber;
+    }
+    public String getUserName(){
+        return userName;
+    }
+    public String getUserLastName(){
+        return userLastName;
     }
 
 

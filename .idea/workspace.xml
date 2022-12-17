@@ -4,18 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6ff36d9-e716-4a12-bf68-c066333b2b10" name="Changes" comment="third Commit">
-      <change afterPath="$PROJECT_DIR$/screenshots/failed/Login with invalid credentials 2022-12-16-19-48-42.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/passed/Login with invalid credentials 2022-12-16-19-47-27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/passed/Login with invalid credentials 2022-12-16-19-49-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/passed/Login with invalid credentials 2022-12-16-19-54-44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/passed/Login with invalid credentials 2022-12-16-19-58-44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/stepDefinitions/Account_Login.java" afterDir="false" />
+    <list default="true" id="d6ff36d9-e716-4a12-bf68-c066333b2b10" name="Changes" comment="forth commit">
+      <change afterPath="$PROJECT_DIR$/screenshots/failed/SignUP with API 2022-12-16-21-33-09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/failed/SignUP with API and login with UI 2022-12-16-21-38-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/failed/SignUP with API and login with UI 2022-12-16-21-42-23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/failed/SignUP with API and login with UI 2022-12-16-21-43-38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/failed/SignUP with API and login with UI 2022-12-16-21-47-42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/failed/SignUp 2022-12-16-20-36-19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/failed/SignUp 2022-12-16-20-42-37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/failed/SignUp 2022-12-16-20-42-57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/failed/SignUp 2022-12-16-20-49-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/passed/SignUP with API 2022-12-16-21-32-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/passed/SignUP with API 2022-12-16-21-35-07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/passed/SignUP with API and login with UI 2022-12-16-21-49-27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/passed/SignUp 2022-12-16-20-39-51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/passed/SignUp 2022-12-16-20-44-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/passed/SignUp 2022-12-16-20-46-28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/pages/APIWorkflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/pages/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/stepDefinitions/Account_SignUp_API.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/stepDefinitions/Account_SignUp_Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e2e/utils/APIPayloadConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/e2e/pages/AccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/pages/AccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e2e/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/e2e/runner/RunnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/runner/RunnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e2e/stepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/stepDefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e2e/stepDefinitions/PageInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/stepDefinitions/PageInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e2e/utils/APIConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e/utils/APIConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Account.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Account.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +116,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: SignUP with API" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Account.feature" />
+      <option name="GLUE" value="e2e.stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="FlightAppTestRenasTech" />
+      <option name="NAME_FILTER" value="^SignUP with API$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^SignUP with API$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: SignUP with API" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: SignUp" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Account.feature" />
@@ -139,6 +174,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunnerClass" />
+        <item itemvalue="Cucumber Java.Scenario: SignUP with API" />
         <item itemvalue="Cucumber Java.Scenario: Login with invalid credentials" />
         <item itemvalue="Cucumber Java.Scenario: SignUp" />
         <item itemvalue="Cucumber Java.Feature: Account" />
@@ -154,7 +190,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670981559327</updated>
       <workItem from="1670981560750" duration="5379000" />
-      <workItem from="1671130861648" duration="17007000" />
+      <workItem from="1671130861648" duration="23647000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit1">
       <created>1671138578451</created>
@@ -177,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671160031385</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="forth commit">
+      <created>1671239161561</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671239161561</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +242,7 @@
     <MESSAGE value="First Commit1" />
     <MESSAGE value="Second Commit" />
     <MESSAGE value="third Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="third Commit" />
+    <MESSAGE value="forth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="forth commit" />
   </component>
 </project>
